@@ -2,8 +2,7 @@ Django>=3.2,<4.3
 gunicorn
 whitenoise
 opencv-python-headless
-tensorflow
-keras
-numpy
+tensorflow-cpu>=2.12.0,<2.16.0
+numpy<2.0.0
 pymysql
 Pillow
