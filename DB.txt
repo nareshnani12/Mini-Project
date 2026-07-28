@@ -1,0 +1,7 @@
+create database facial;
+use facial;
+create table rating(customer_name varchar(50),
+rating double,
+facial_expression varchar(50),
+photo_path varchar(50),
+rating_date timestamp);

@@ -1,0 +1,9 @@
+Django>=3.2,<4.3
+gunicorn
+whitenoise
+opencv-python-headless
+tensorflow
+keras
+numpy
+pymysql
+Pillow

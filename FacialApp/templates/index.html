@@ -1,0 +1,41 @@
+{% load static %}
+<html>
+<head>
+<title>Facial Expression Recognition</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="{% static 'style.css' %}" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="main">
+  <div class="main_resize">
+    <div class="header">
+      <div class="logo">
+        <h1><span><center>A Deep Learning Facial Expression Recognition Based Scoring
+<br/><center>System For Restaurants</center></span><small></small></h1>
+      </div>
+    </div>
+    <div class="content">
+      <div class="content_bg">
+        <div class="menu_nav">
+          <ul>
+          <li><a href="{% url 'Index' %}">Home</a></li>
+		  <li><a href="{% url 'User' %}">User</a></li>
+		  <li><a href="{% url 'Admin' %}">Administrator</a></li>
+          </ul>
+        </div>
+        <div class="hbg"><img src="{% static 'images/header_images.jpg' %}" width="915" height="286" alt="" /></div>
+       <p align="justify"><font size="3" style="font-family: Comic Sans MS" color="black">Recently, the popularity of automated and
+unmanned restaurants has increased. Due to the absence of staff,
+there is no direct perception of the customers' impressions in
+order to find out what their experiences with the restaurant
+concept are like. For this purpose, this paper presents a rating
+system based on facial expression recognition with pre-trained
+convolutional neural network (CNN) models. It is composed of an
+Android mobile application, a web server, and a pre-trained AIserver.
+Both the food and the environment are supposed to be
+rated. Currently, three expressions (satisfied, neutral and
+disappointed) are provided by the scoring system.</p>
+ 
+ 
+  </body>
+</html>

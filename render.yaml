@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: facial-expression-scoring
+    env: python
+    buildCommand: "pip install -r requirements.txt && python manage.py collectstatic --noinput"
+    startCommand: "gunicorn Facial.wsgi:application"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.12
